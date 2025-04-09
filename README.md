@@ -23,3 +23,20 @@ O sistema é composto por 3 tarefas com prioridade igual:
 Todas as tarefas utilizam um **mutex** (`xSemaphore`) para sincronizar o acesso ao **buffer global** (`char buffer[20]`), onde formatam a mensagem a ser impressa com `vPrintString()`.
 
 ---
+
+## 🧰 Tecnologias Utilizadas
+
+### 🧠 FreeRTOS
+
+[**FreeRTOS**](https://www.freertos.org/) é um sistema operacional de tempo real de código aberto, amplamente utilizado em sistemas embarcados.
+
+Neste projeto, usamos **FreeRTOS** para:
+- Gerenciar e escalonar 3 tarefas concorrentes.
+- Utilizar semáforo mutex (`xSemaphoreCreateMutex`) para controle de acesso ao buffer de texto.
+- Realizar atrasos não bloqueantes com `vTaskDelay`.
+
+### 💻 Linguagem C
+
+O projeto foi totalmente desenvolvido em **C**, linguagem de programação padrão para sistemas embarcados.
+
+---
