@@ -38,5 +38,8 @@ Neste projeto, usamos **FreeRTOS** para:
 ### 💻 Linguagem C
 
 O projeto foi totalmente desenvolvido em **C**, linguagem de programação padrão para sistemas embarcados.
+O códio
 
 ---
+
+📌 O código completo da aplicação está no arquivo example.c deste repositório.
