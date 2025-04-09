@@ -1,0 +1,29 @@
+﻿cl : linha de comando  warning D9035: opção 'Gm' foi preterida e será removida em uma versão futura
+  Run-time-stats-utils.c
+  tasks.c
+  queue.c
+  port.c
+  list.c
+  main.c
+  example.c
+  basic_io.c
+C:\Users\vinih\OneDrive - Grupo Marista\Desktop\SOCPS\FreeRTOS_PUCPR\FreeRTOS\Demo\Semáforo Mutex\example.c(38,19): warning C4100: 'pvParameters': parâmetro formal não referenciado
+C:\Users\vinih\OneDrive - Grupo Marista\Desktop\SOCPS\FreeRTOS_PUCPR\FreeRTOS\Demo\Semáforo Mutex\example.c(87,19): warning C4100: 'pvParameters': parâmetro formal não referenciado
+C:\Users\vinih\OneDrive - Grupo Marista\Desktop\SOCPS\FreeRTOS_PUCPR\FreeRTOS\Demo\Semáforo Mutex\example.c(128,19): warning C4100: 'pvParameters': parâmetro formal não referenciado
+  timers.c
+  heap_5.c
+C:\Users\vinih\OneDrive - Grupo Marista\Desktop\SOCPS\FreeRTOS_PUCPR\FreeRTOS\Source\portable\MemMang\heap_5.c(344,6): warning C4146: operador menos unário aplicado a tipo unsigned, resultado permanece unsigned
+  event_groups.c
+  croutine.c
+  trcUser.c
+  trcKernelPort.c
+C:\Users\vinih\OneDrive - Grupo Marista\Desktop\SOCPS\FreeRTOS_PUCPR\FreeRTOS-Plus\Source\FreeRTOS-Plus-Trace\trcKernelPort.c(121,68): warning C4305: '=': truncamento de 'int' para 'objectHandleType'
+  trcKernel.c
+  trcHardwarePort.c
+  trcBase.c
+  Gerando Código...
+C:\Users\vinih\OneDrive - Grupo Marista\Desktop\SOCPS\FreeRTOS_PUCPR\FreeRTOS\Demo\Semáforo Mutex\example.c(35,1): warning C4702: código inacessível
+C:\Users\vinih\OneDrive - Grupo Marista\Desktop\SOCPS\FreeRTOS_PUCPR\FreeRTOS\Demo\Semáforo Mutex\example.c(84,1): warning C4702: código inacessível
+C:\Users\vinih\OneDrive - Grupo Marista\Desktop\SOCPS\FreeRTOS_PUCPR\FreeRTOS\Demo\Semáforo Mutex\example.c(153,1): warning C4702: código inacessível
+C:\Users\vinih\OneDrive - Grupo Marista\Desktop\SOCPS\FreeRTOS_PUCPR\FreeRTOS\Demo\Semáforo Mutex\example.c(125,1): warning C4702: código inacessível
+  WIN32.vcxproj -> C:\Users\vinih\OneDrive - Grupo Marista\Desktop\SOCPS\FreeRTOS_PUCPR\FreeRTOS\Demo\Semáforo Mutex\Debug\Exemplo_18.exe

@@ -1,0 +1,2 @@
+C:\Users\vinih\OneDrive - Grupo Marista\Desktop\SOCPS\FreeRTOS_PUCPR\FreeRTOS\Demo\WIN32-MSVC-Exemplo_18 - Semaforos\Debug\Exemplo_18.exe
+C:\Users\vinih\OneDrive - Grupo Marista\Desktop\SOCPS\FreeRTOS_PUCPR\FreeRTOS\Demo\Semáforo Mutex\Debug\Exemplo_18.exe
