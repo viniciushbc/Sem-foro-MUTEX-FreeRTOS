@@ -10,6 +10,12 @@ As tarefas compartilham um buffer global que funciona como um display e utilizam
 
 ---
 
+## 📁 Estrutura do Projeto
+
+O código-fonte principal está localizado em: example.c
+
+---
+
 ## 🚀 Visão Geral
 
 O sistema é composto por 3 tarefas com prioridade igual:
@@ -30,16 +36,6 @@ Todas as tarefas utilizam um **mutex** (`xSemaphore`) para sincronizar o acesso 
 
 [**FreeRTOS**](https://www.freertos.org/) é um sistema operacional de tempo real de código aberto, amplamente utilizado em sistemas embarcados.
 
-Neste projeto, usamos **FreeRTOS** para:
-- Gerenciar e escalonar 3 tarefas concorrentes.
-- Utilizar semáforo mutex (`xSemaphoreCreateMutex`) para controle de acesso ao buffer de texto.
-- Realizar atrasos não bloqueantes com `vTaskDelay`.
-
 ### 💻 Linguagem C
 
 O projeto foi totalmente desenvolvido em **C**, linguagem de programação padrão para sistemas embarcados.
-O códio
-
----
-
-📌 O código completo da aplicação está no arquivo example.c deste repositório.
